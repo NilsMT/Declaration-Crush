@@ -1,8 +1,20 @@
-/* DEBUG */
+/* RED */
+:root.theme_red {
+    --bg: #b60000;
+    --bg-dark: #720000;
+    --bg-light: #ff0000;
 
-:root.debug * {
-    outline: var(--accent) dotted 2px;
-    outline-offset: -2px;
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_red .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_red .btn-normal {
+    background-color: var(--bg-light);
 }
 
 /* PINK */
@@ -28,21 +40,94 @@
     filter: hue-rotate(-60deg);
 }
 
-/* PINKER */
-:root.theme_red {
-    --bg: #b60000;
-    --bg-dark: #720000;
-    --bg-light: #ff0000;
+/* PURPLE */
+:root.theme_purple {
+    --bg: #8400ff;
+    --bg-dark: #6300b9;
+    --bg-light: #b889ff;
 
     --text: #000000;
     --opptext: #ffffff;
 }
 
-:root.theme_red .btn:hover {
+:root.theme_purple .btn:hover {
     filter: brightness(0.9);
     cursor: pointer;
 }
 
-:root.theme_red .btn-normal {
+:root.theme_purple .btn-normal {
     background-color: var(--bg-light);
+}
+
+:root.theme_purple video {
+    filter: hue-rotate(-80deg);
+}
+
+/* CYAN */
+:root.theme_cyan {
+    --bg: #00b7ff;
+    --bg-dark: #0076a4;
+    --bg-light: #7bdaff;
+
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_cyan .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_cyan .btn-normal {
+    background-color: var(--bg-light);
+}
+
+:root.theme_cyan video {
+    filter: hue-rotate(-150deg);
+}
+
+/* GREEN */
+:root.theme_green {
+    --bg: #009b05;
+    --bg-dark: #006905;
+    --bg-light: #7bff7d;
+
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_green .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_green .btn-normal {
+    background-color: var(--bg-light);
+}
+
+:root.theme_green video {
+    filter: hue-rotate(-200deg);
+}
+
+/* YELLOW */
+:root.theme_yellow {
+    --bg: #e7d000;
+    --bg-dark: #8d7800;
+    --bg-light: #fff59d;
+
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_yellow .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_yellow .btn-normal {
+    background-color: var(--bg-light);
+}
+
+:root.theme_yellow video {
+    filter: hue-rotate(-280deg);
 }
