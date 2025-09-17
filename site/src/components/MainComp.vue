@@ -1,12 +1,7 @@
 <template>
     <div id="main">
         <h2>Salut à toi beautée prête à être séduite ? 😘</h2>
-        <router-link
-            @click="seduceMe"
-            id="bigassbtn"
-            class="btn btn-normal"
-            to="/seduction"
-        >
+        <router-link id="bigassbtn" class="btn btn-normal" to="/seduction">
             Oui, je suis prêt à tout pour toi ! ❤️
         </router-link>
 
