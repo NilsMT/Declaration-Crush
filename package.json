@@ -1,0 +1,15 @@
+{
+    "name": "declaration-crush",
+    "version": "1.0.0",
+    "description": "Generate urbex notes for your google maps marker",
+    "main": "index.js",
+    "scripts": {
+        "start:site": "cd site && npm run dev",
+        "build:site": "cd site && npm run build",
+        "build:extension": "cd extension && npm run build",
+        "install:site": "cd site && npm install",
+        "install:extension": "cd extension && npm install"
+    },
+    "author": "NilsMT",
+    "license": "MIT"
+}

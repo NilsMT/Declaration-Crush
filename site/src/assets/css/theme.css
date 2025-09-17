@@ -1,0 +1,48 @@
+/* DEBUG */
+
+:root.debug * {
+    outline: var(--accent) dotted 2px;
+    outline-offset: -2px;
+}
+
+/* PINK */
+:root.theme_pink {
+    --bg: #e600ff;
+    --bg-dark: #a600b9;
+    --bg-light: #f389ff;
+
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_pink .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_pink .btn-normal {
+    background-color: var(--bg-light);
+}
+
+:root.theme_pink video {
+    filter: hue-rotate(-60deg);
+}
+
+/* PINKER */
+:root.theme_red {
+    --bg: #b60000;
+    --bg-dark: #720000;
+    --bg-light: #ff0000;
+
+    --text: #000000;
+    --opptext: #ffffff;
+}
+
+:root.theme_red .btn:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+:root.theme_red .btn-normal {
+    background-color: var(--bg-light);
+}
